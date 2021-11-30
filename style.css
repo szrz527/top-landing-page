@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    height: 100vh;
+}
+
+h2 {
+    margin: 0px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-intro {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+}
