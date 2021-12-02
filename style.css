@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     margin: 0px;
+    background-color: rgb(46, 46, 46);
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,6 +21,8 @@ h2 {
     color: #f9faf8;
     font-size: 24px;
 }
+
+/* header */
 
 .header a {
     color: #e5e7eb;
@@ -47,9 +51,13 @@ button {
     font-size: 18px;
 }
 
+p {
+    margin: 0px;
+}
+
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 16px 200px;
     color: #e5e7eb;
     font-size: 18px;
@@ -60,10 +68,13 @@ button {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex: 1 1 auto;
 }
 
 .right-intro img {
-    width: 300px;
+    width: 372px;
+    height: 235px;
+    border-radius: 8px;
 }
 
 .quote {
