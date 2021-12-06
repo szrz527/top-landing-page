@@ -45,7 +45,12 @@ p {
     margin-bottom: 100px;
 }
 
-button {
+.right-links {
+    display: flex;
+    gap: 24px;
+}
+
+.left-intro button {
     background-color: #3882f6;
     padding: 6px 32px;
     border-radius: 8px;
@@ -53,6 +58,7 @@ button {
     color: white;
     font-weight: 900;
     font-size: 18px;
+    width: 134px;
 }
 
 .intro {
@@ -95,7 +101,7 @@ button {
 .pictures {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .pictures img {
@@ -103,8 +109,8 @@ button {
     border-style: solid;
     border-color: #3882f6;
     border-width: 2px;
-    height: 130px;
-    width: 130px;
+    height: 180px;
+    width: 180px;
 }
 
 .pictext {
@@ -112,7 +118,7 @@ button {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    width: 134px;
+    width: 184px;
 }
 
 /* quote */
@@ -133,8 +139,38 @@ button {
     text-align: end;
 }
 
+/* cta */
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.cta button {
+    background-color: #3882f6;
+    padding: 6px 32px;
+    border-radius: 8px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    width: 138px;
+}
+
 /* footer */
 
 .footer {
     background-color: #1f2937;
+    color: #e5e7eb;   
+    text-align: center;
+    justify-items: center;
+    padding: 40px;
 }
